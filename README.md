@@ -65,7 +65,7 @@ _The key words listed here are unordered and presented in form of a draft_
 | DoH | DNS-over-HTTPS | Standarized format and protocol for sending Domain Name System \(DNS\) queries through HTTP rather than the traditional DNS protocol \(RFC-8484\). |
 | PoK | Proof of Knowledge | The PoK is a valid proof that certain expected knowledge is conceived by one or more individual entities. |
 | RPoHC | Real Proof of Human Consent | The RPoHC is a valid proof that enforces respect of human rights within the ecosystem and that consists of the human actor being concious about the decisions that she is capable of making regarding something in particular. |
-| EFF | Electronic Frontier Foundation |  |
+| EFF | Electronic Frontier Foundation | The Electronic Frontier Foundation is the leading nonprofit organization defending civil liberties in the digital world. Founded in 1990, EFF champions user privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development. |
 | ToS | Terms of Service | The ToS are a set of organized informations that describe in a detailed and understandable manner how a particular interaction that can be also called a service would work in the case that the same informations are accepted and agreed to function in a determined period. |
 | IoT | Internet of Things |  |
 | IoH \(IoTH\) | Internet of Humans | An IoT device that is installed in a human being with its consent and knowledge by their respective RPOHC, and PoK of the ToS, conditions and privacy policies. |
