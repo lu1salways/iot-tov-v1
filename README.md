@@ -1,7 +1,5 @@
 # A Crypto-warranty and Transfer of Value Interface for Connected Devices
-
 ## Disclaimer about this document
-
 ```text
 (c) Copyright 2018,2019. [es-mx: Derechos Reservados 2018,2019.]
 Author nickname: lu1s.
@@ -11,7 +9,8 @@ otherwise expressed in a future version of this document.
 
 K_DOCUMENT_TITLE: "+LKNC$: Crypto warranty and transfer of value interface for connected devices."
 
-lu1s.s1gn.201901050002357590000.e3434.e22.nl.eom.
+SOSSIG.pulidoman.s1gn.2019.Q1.20190301000205522000070105511.E34.E22.EOSSIG.
+- 7P1GgOUxxYtIaSrNVAYhFVCeCBJWTTY2YmzLHTXE9JXVVjf2ybnvYRGZOjUretxd -
 ```
 
 ## IETF key words disclaimer
@@ -30,21 +29,21 @@ The citizenship of the author or authors is classified yet it will be declassifi
 
 ## Preamble
 
-In recent years the global growth in matter of many topics including and emphasizing the technological ones has been circumnstantially big, and as a natural and also circumnstantial effect it has also created bigger challenges for the leaders of public and private organizations for them to enable and share those technological achievements of the human kind, with their own ecosystems and entities, and with the ones whom they relate with.
+In recent years the global growth in matter of many topics including and emphasizing the technological ones has been circumnstantially big, and as a natural and also circumnstantial effect it has also created bigger challenges for the leaders of public and private organizations for them to enable and share those technological achievements of the human kind, with their own ecosystems and entities, and with the ones of whom they relate with.
 
-The work presented here is a compilation of efforts, ideas, code bases, business models, terms, conditions, privacy policies, licenses and other informations that as a whole they represent secure technology for a fair enhancement of health and wellness of an economy.
+The work presented here is a compilation of efforts, ideas, code bases, business models, terms, conditions, privacy policies, licenses and other informations that, as a whole, they represent secure technology for a fair enhancement of health and wellness of an economy and the economy as a whole.
 
-Within this document, a State or Country is any Sovereign Entity that with the appropiate terms, conditions, privacy policies, licenses and a Currency Emissor Approved Assembly \(CEAA\), or an Entity which serves as so; it is capable of building and maintaining a fair and stable ecosystem and thus a healthier and more fairly distributed economy.
+Within this document, a State or Country is any Sovereign Entity that, with the appropiate terms, conditions, privacy policies, licenses and a Currency Emissor Approved Assembly \(CEAA\), or an Entity which serves as so; it is capable of building and maintaining a fair and stable ecosystem and thus a healthier and more fairly distributed economy.
 
-As an example, and in the particular case of México \(the Country; as a whole Set of Connected States\), the CEAA is today\[1\] the "Bank of Mexico" \(also known as "Banco de México" or "BoM"\). The BoM is the Entity in charge of all the currency emission, recycling and control within the country and for the countrie's interests.
+As an example, and in the particular case of México \(the Country; as a whole Set of Connected States\), the CEAA is today\[1\] the "Bank of Mexico" \(also known as "Banco de México" or "BoM" or "BdM"\). The BoM is the Entity in charge of all the currency emissions, recycling and control within the country and for the interests of the same.
 
 _\[1\] Today as of 201812100002136190000, and invalidated if wrong._
 
 The following projects are the first demonstrations of MVV of multiple integrated MVPs that comply with the MRQ each of them so that at the end the full CoVA the ToV can be demonstrated in "real time" by a complete and conciliated set of PoAVs between the SIO and the SEUs providing sufficient MRS for the prevention and detention of misuse of the described crypto warranties.
 
-## Broad concepts and entities
+## Basic concepts and entities
 
-_The key words listed here are unordered and presented in form of a draft_
+_The key words listed here are unordered and presented in form of a draft._
 
 | Acronym | Name | Description |
 | :--- | :--- | :--- |
@@ -63,6 +62,7 @@ _The key words listed here are unordered and presented in form of a draft_
 | DRFCC | Draft of RFC that is Clean \(without Errata\) |  |
 | PRFC | Published RFC \(Internet Standard\) |  |
 | DoH | DNS-over-HTTPS | Standarized format and protocol for sending Domain Name System \(DNS\) queries through HTTP rather than the traditional DNS protocol \(RFC-8484\). |
+| DoS | Denial of Service | The Denial of Service is a technique that could be applied either from an ISP, an attacker, a government or another entity that consists of interrupting a service temporarly or permanently. |
 | PoK | Proof of Knowledge | The PoK is a valid proof that certain expected knowledge is conceived by one or more individual entities. |
 | RPoHC | Real Proof of Human Consent | The RPoHC is a valid proof that enforces respect of human rights within the ecosystem and that consists of the human actor being concious about the decisions that she is capable of making regarding something in particular. |
 | EFF | Electronic Frontier Foundation |  |
@@ -71,14 +71,18 @@ _The key words listed here are unordered and presented in form of a draft_
 | IoH \(IoTH\) | Internet of Humans | An IoT device that is installed in a human being with its consent and knowledge by their respective RPOHC, and PoK of the ToS, conditions and privacy policies. |
 | IoA \(IoTA\) | Internet of Animals | An IoT device that is installed in an living being that is not human and that is not listed as a restricted IoA living being and that its oficially responsible Human has already provided consent and Proof of Knowledge of the Terms and Conditions and Privacy Policy of its Service. |
 | IoV \(IoTVe\) | Internet of Vehicles | An IoT device that is Installed \(kev:cinstall\) in a Vehicle and that if other IoT devices are also installed in the same vehicle then it is the one that serves as the main controller or conciliator device for the proper communication of the vehicle with the Internet and that its Owner \(KIAM\), or Device Responsible Entity \(KDRE\) has already provided consent and Proof of Knowledge of the Terms and Conditions and Privacy Policy of its Service. For a vehicle to be considered as so for an installation and functioning of an IoV, it must be a device or artifact that complies with the laws, legislations, terms and conditions, privacy policies, corporate and civil agreements and human rights common sense considerations of the States in which it is pretended to be functioning. |
+
+### Vehicles And Physical Movil Internets
+| Acronym | Name | Description |
+| :--- | :--- | :--- |
+| IoBi \(IoTSBikes\) | Internet of Bicycles | An IoT device that is Installed \(kev:cinstall\) in a Vehicle and that if other IoT devices are also installed in the same vehicle then it is the one that serves as the main controller or conciliator device for the proper communication of the vehicle with the Internet and that its Owner \(KIAM\), or Device Responsible Entity \(KDRE\) has already provided consent and Proof of Knowledge of the Terms and Conditions and Privacy Policy of its Service. For a vehicle to be considered as so for an installation and functioning of an IoBi, it must be a device or artifact that complies with the laws, legislations, terms and conditions, privacy policies, corporate and civil agreements and human rights common sense considerations of the States in which it is pretended to be functioning. A State must be fully understood as an state in a State Machine as for a `XKXSmartContract` from the Beginning to the End. |
 | IoTv \(IoTTv\) | Internet of Televisions | An IoT device that is embedded or is part or is a Television device and that the persons who are watching it while it is displaying content and connected to the Internet or Network at the same time is subject to the terms, conditions and privacy policies specially created for that matter and are not invasive nor violative of human rights. |
 | IoMD \(IoTMD\) | Internet of Medical Devices | An IoT device that is embedded or installed in a LNCMD and that complies with all the regulations and MRQ previously needed to be a LKMD that works within the +LKNC$ ecosystem; and that by definition it must include a IoMD. All the LKMD must include a IoMD to be considered a LKMD. |
-| LNCMD \(LNKMD\) | Lucky Network `KClassifiedCertified` Medical Device | The `LNCMD` \(Lucky Network Certified and Classified Medical Device\), also named `LNKMD` \(Lucky Network K Medical Device\) is a `K grade` certified secure device that processes, stores, transmits and receives `Medical Data`. The processing, storing, transmitting and receiving of medical data is also known in the +LKNC$ ecosystem as `"MedKData"`. All the `MedKData` must comply with the MRQ of the same, and must comply with `HIPAA`, `PCI` and the current `"most strict"` `"worldwide"` medical data handling regulations. The LNSCT and LNSCTVA will always work in efforts to bringing the highest standards of security to the `MedKData` `protocol`. |
+| LNCMD \(LNKMD\) | F Atom `KClassifiedCertified` Medical Device | The `LNCMD` \(F Atom Certified and Classified Medical Device\), also named `LNKMD` \(F Atom K Medical Device\) is a `K grade` certified secure device that processes, stores, transmits and receives `Medical Data`. The processing, storing, transmitting and receiving of medical data is also known in the +LKNC$ ecosystem as `"MedKData"`. All the `MedKData` must comply with the MRQ of the same, and must comply with `HIPAA`, `PCI` and the current `"most strict"` `"worldwide"` medical data handling regulations. The LNSCT and LNSCTVA will always work in efforts to bringing the highest standards of security to the `MedKData` `protocol`. |
 | MedKData | `MedKData protocol` | CLASSIFIED TERM THAT CONSISTS OF A SECURE AND CLASSIFIED PROTOCOL OF DATA TRANSMISSION. |
 | ToV | Transfer of Value | CLASSIFIED TERM THAT CONSISTS OF TRANSMITING OR TX OR RX VALUE OR THE CLASSIFIED K ATOM. |
 | UoV | Unit of Value | This is the most atomic unit of the +LKNC$ that can be used for Transfer of Value. The UoV can not be changed in an existing working $KLNC$ ecosystem. If a radical change like replacing the original UoV then a whole new +LKNC$ ecosystem would need to be enabled for the new UoV to start functioning, and the past +LKNC$ in which the old UoV used to live shall gradually and in an optimal way migrate to the new +LKNC$ through one or more LKNCTEs. |
-| EUoV | External Unit of Value | An EUoV is any other currency or unitary value representation of ponderation which is different from the UoV of the +LKNC$ ecosystem but that can interact with the +LKNC$ through a LKNCTE. For example, if the UoV of the +LKNC$ "Zion" is "Euro", and a LKNCTE offers entrance to the +LKNC$ with "Sterlin Pounds", then the "Sterlin Pound" is considered as a EUoV while the "Euro" is considered as the UoV. |
-| CoToV | Contract of Transfer of Value | CLASSIFIED TERM THAT CONSISTS OF A K CONTRACT OR SMART CONTRACT OR CONTRACT OR SET OF TERMS, CONDITIONS, PRIVACY POLICIES, ACCEPTATION AGREEMENT AND PROOF OF KNOWLEDGE OF AN AUTHORITATIVE AND SIGNED CLASSIFIED KLUCK SMART CONTRACT. |
+| CoToV | Contract of Transfer of Value | CLASSIFIED TERM THAT CONSISTS OF A K CONTRACT OR SMART CONTRACT OR CONTRACT OR SET OF TERMS, CONDITIONS, PRIVACY POLICIES, ACCEPTATION AGREEMENT AND PROOF OF KNOWLEDGE OF A DETERMINED TRANSFER OF VALUE ACTION. |
 | ToToV | Timestamp of Transfer of Value |  |
 | KSTATE | The K State | All and every Device that interacts with the +LKNC$ weather it is enabled to transact or only to read, exists and is on one and only one of the States that are part of the set of States of he +LKNC$ Finite State Ecosystem. |
 | KFSES | +LKNC$ Finite State Ecosystem State Set | The State Set of the +LKNC$ Sinite State Ecosystem includes all and every possible KSTATE that the Device can "be in". "Being in" a State is an abstract concept and in the case scenario of the $LKNC$ ecosystem only the Devices that are able to transact \(the KIoT devices\) can "be in" a State. All other Devices or devices that in a way interact with the +LKNC$ can be in a state and will be identified as so but they will not have the ability either to "be in" a State or to transact within the +LKNC$ ecosystem. Instead, those Devices or devices will be only able to read the +LKNC$ transactions and to interact in the Public +LKNC$ Pool that is fully separated from the ToV +LKNC$ ecosystem. The Devices or devices that are not able to "be in" a State, will be able to transact within the ToV +LKNC$ ecosystem only through a LKNCTE. |
@@ -131,15 +135,7 @@ _The units of value shown here are just for demonstrative purposes until this me
         BoO:
         VoO:  1
         SoO:  
-        IPoRA_LKSOID: 
-
-
-
-
-
-
-
-
+        IPoRA_LKSOID:
 * $USD  United States Dollar
         CoO:  UNITED_STATES_OF_AMERICA
         BoO:  THE_FEDERAL_RESERVE (TBD: $$INDEX.O$$)
@@ -193,8 +189,8 @@ The investment is considered as a mix of money and time. For a ROI we consider t
 
 ## Particular Groups
 
-* LNSCTC:   Lucky Network Source Code Trust Commitee.
-* LNSCTCVA: Lucky Network Source Code Trust Commitee Validation Association.
+* FAtSCTC:   F Atom Source Code Trust Commitee.
+* FAtSCTCVA: F Atom Source Code Trust Commitee Validation Association.
 
 ## Particular LKSO Terms and Abbreviations
 
